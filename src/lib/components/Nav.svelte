@@ -16,7 +16,7 @@
 <header class="nav">
 	<div class="container nav__inner">
 		<a class="nav__brand" href="#top" aria-label="Stellab">
-			<img src="/logo.svg" alt="" width="36" height="36" />
+			<img src="/logo.svg" alt="" width="34" height="34" />
 			<span class="nav__wordmark">
 				<span class="nav__name">Stellab</span>
 				<span class="nav__legal">OÜ</span>

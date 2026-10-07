@@ -7,7 +7,7 @@
 
 	<div class="container hero__content">
 		<div class="hero__lockup" id="hero-brand">
-			<img class="hero__mark" src="/logo.svg" alt="" width="88" height="88" />
+			<img class="hero__mark" src="/logo.svg" alt="" width="112" height="112" />
 			<p class="hero__wordmark">
 				<span class="hero__name">{$t.hero.brand}</span>
 				<span class="hero__ou">{$t.hero.legal}</span>
@@ -70,11 +70,10 @@
 	}
 
 	.hero__mark {
-		width: clamp(4.25rem, 9vw, 5.75rem);
+		width: clamp(5.5rem, 12vw, 7.25rem);
 		height: auto;
 		flex-shrink: 0;
-		border-radius: 1rem;
-		box-shadow: 0 12px 36px color-mix(in srgb, #000 28%, transparent);
+		filter: drop-shadow(0 10px 28px color-mix(in srgb, #000 35%, transparent));
 	}
 
 	.hero__wordmark {
