@@ -7,7 +7,7 @@
 
 	<div class="container hero__content">
 		<div class="hero__lockup" id="hero-brand">
-			<img class="hero__mark" src="/logo-on-dark.svg" alt="" width="112" height="112" />
+			<img class="hero__mark" src="/logo.png" alt="" width="112" height="112" />
 			<p class="hero__wordmark">
 				<span class="hero__name">{$t.hero.brand}</span>
 				<span class="hero__ou">{$t.hero.legal}</span>
