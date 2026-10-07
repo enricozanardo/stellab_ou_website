@@ -58,7 +58,9 @@ export const et: Dictionary = {
 		registryLink: 'Vaata Eesti äriregistris',
 		registryUrl: 'https://ariregister.rik.ee/est/company/17615183',
 		contactPersonLabel: 'Kontaktisik',
-		contactPerson: 'Sunio OÜ (registrikood 10116749)'
+		contactPerson: 'Sunio OÜ (registrikood 10116749)',
+		vatLabel: 'KMKR number',
+		vat: '—'
 	},
 	contact: {
 		eyebrow: 'Kontakt',
@@ -75,6 +77,7 @@ export const et: Dictionary = {
 	footer: {
 		rights: 'Kõik õigused kaitstud.',
 		tagline: 'Eestis registreeritud tehnoloogiaettevõte.',
-		registry: 'Registrikood 17615183'
+		registry: 'Registrikood 17615183',
+		vat: 'KMKR —'
 	}
 };

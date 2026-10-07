@@ -45,6 +45,8 @@ export type Dictionary = {
 		registryUrl: string;
 		contactPersonLabel: string;
 		contactPerson: string;
+		vatLabel: string;
+		vat: string;
 	};
 	contact: {
 		eyebrow: string;
@@ -62,6 +64,7 @@ export type Dictionary = {
 		rights: string;
 		tagline: string;
 		registry: string;
+		vat: string;
 	};
 };
 
@@ -123,7 +126,9 @@ export const en: Dictionary = {
 		registryLink: 'View in the Estonian e-Business Register',
 		registryUrl: 'https://ariregister.rik.ee/eng/company/17615183',
 		contactPersonLabel: 'Contact person',
-		contactPerson: 'Sunio OÜ (registry code 10116749)'
+		contactPerson: 'Sunio OÜ (registry code 10116749)',
+		vatLabel: 'VAT number',
+		vat: '—'
 	},
 	contact: {
 		eyebrow: 'Contact',
@@ -140,6 +145,7 @@ export const en: Dictionary = {
 	footer: {
 		rights: 'All rights reserved.',
 		tagline: 'Technology company registered in Estonia.',
-		registry: 'Registry code 17615183'
+		registry: 'Registry code 17615183',
+		vat: 'VAT —'
 	}
 };

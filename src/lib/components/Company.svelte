@@ -30,6 +30,10 @@
 				<dt>{$t.company.contactPersonLabel}</dt>
 				<dd>{$t.company.contactPerson}</dd>
 			</div>
+			<div class="facts__row">
+				<dt>{$t.company.vatLabel}</dt>
+				<dd>{$t.company.vat}</dd>
+			</div>
 		</dl>
 	</div>
 </section>

@@ -3,46 +3,16 @@
 </script>
 
 <section class="hero" id="top" aria-labelledby="hero-brand">
-	<div class="hero__visual" aria-hidden="true">
-		<svg class="hero__constellation" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
-			<defs>
-				<linearGradient id="hero-sky" x1="0" y1="0" x2="1" y2="1">
-					<stop offset="0%" stop-color="#0B1F2E" />
-					<stop offset="55%" stop-color="#0E3A4D" />
-					<stop offset="100%" stop-color="#134556" />
-				</linearGradient>
-				<radialGradient id="hero-glow" cx="70%" cy="30%" r="45%">
-					<stop offset="0%" stop-color="#1FA7A0" stop-opacity="0.28" />
-					<stop offset="100%" stop-color="#1FA7A0" stop-opacity="0" />
-				</radialGradient>
-			</defs>
-			<rect width="1440" height="900" fill="url(#hero-sky)" />
-			<rect width="1440" height="900" fill="url(#hero-glow)" />
-			<g stroke="#E8EEF2" stroke-opacity="0.18" stroke-width="1">
-				<path d="M180 620 L420 280 L710 520 L980 210 L1260 480" fill="none" />
-				<path d="M420 280 L560 160" fill="none" />
-				<path d="M710 520 L640 720" fill="none" />
-				<path d="M980 210 L1120 340" fill="none" />
-			</g>
-			<g fill="#E8EEF2">
-				<circle cx="180" cy="620" r="3.5" opacity="0.55" />
-				<circle cx="420" cy="280" r="4" opacity="0.75" />
-				<circle cx="560" cy="160" r="3" opacity="0.5" />
-				<circle cx="710" cy="520" r="4.5" opacity="0.8" />
-				<circle cx="640" cy="720" r="3" opacity="0.45" />
-				<circle cx="980" cy="210" r="4" opacity="0.7" />
-				<circle cx="1120" cy="340" r="3" opacity="0.5" />
-				<circle cx="1260" cy="480" r="3.5" opacity="0.6" />
-			</g>
-			<circle cx="710" cy="520" r="6" fill="#1FA7A0" opacity="0.9" />
-		</svg>
-	</div>
+	<div class="hero__visual" aria-hidden="true"></div>
 
 	<div class="container hero__content">
-		<p class="hero__brand" id="hero-brand">
-			<span class="hero__name">{$t.hero.brand}</span>
-			<span class="hero__ou">{$t.hero.legal}</span>
-		</p>
+		<div class="hero__lockup" id="hero-brand">
+			<img class="hero__mark" src="/logo.svg" alt="" width="88" height="88" />
+			<p class="hero__wordmark">
+				<span class="hero__name">{$t.hero.brand}</span>
+				<span class="hero__ou">{$t.hero.legal}</span>
+			</p>
+		</div>
 		<h1 class="hero__headline">{$t.hero.headline}</h1>
 		<p class="hero__support">{$t.hero.supporting}</p>
 		<div class="hero__actions">
@@ -65,12 +35,24 @@
 		position: absolute;
 		inset: 0;
 		z-index: 0;
+		background:
+			radial-gradient(ellipse 70% 55% at 78% 18%, color-mix(in srgb, var(--signal) 22%, transparent), transparent 70%),
+			linear-gradient(145deg, #0b1f2e 0%, #0e3a4d 52%, #134556 100%);
 	}
 
-	.hero__constellation {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
+	.hero__visual::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background:
+			linear-gradient(180deg, transparent 35%, color-mix(in srgb, #06131d 72%, transparent) 100%),
+			repeating-linear-gradient(
+				-18deg,
+				transparent,
+				transparent 46px,
+				color-mix(in srgb, var(--ice) 4%, transparent) 46px,
+				color-mix(in srgb, var(--ice) 4%, transparent) 47px
+			);
 	}
 
 	.hero__content {
@@ -80,11 +62,26 @@
 		animation: hero-rise 0.9s var(--ease) both;
 	}
 
-	.hero__brand {
+	.hero__lockup {
+		display: flex;
+		align-items: center;
+		gap: clamp(0.85rem, 2vw, 1.35rem);
+		margin: 0 0 1.5rem;
+	}
+
+	.hero__mark {
+		width: clamp(4.25rem, 9vw, 5.75rem);
+		height: auto;
+		flex-shrink: 0;
+		border-radius: 1rem;
+		box-shadow: 0 12px 36px color-mix(in srgb, #000 28%, transparent);
+	}
+
+	.hero__wordmark {
 		display: flex;
 		align-items: baseline;
 		gap: 0.65rem;
-		margin: 0 0 1.25rem;
+		margin: 0;
 	}
 
 	.hero__name {

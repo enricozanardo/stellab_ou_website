@@ -14,6 +14,7 @@
 			© {year} Stellab OÜ. {$t.footer.rights}
 			{$t.footer.tagline}
 			{$t.footer.registry}.
+			{$t.footer.vat}.
 		</p>
 	</div>
 </footer>
@@ -38,10 +39,6 @@
 		font-family: var(--font-display);
 		font-size: 1.15rem;
 		font-weight: 600;
-	}
-
-	.footer__brand :global(img) {
-		filter: invert(1) brightness(1.15);
 	}
 
 	.footer__copy {
