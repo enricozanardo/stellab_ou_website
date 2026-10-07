@@ -7,7 +7,7 @@
 <footer class="footer">
 	<div class="container footer__inner">
 		<div class="footer__brand">
-			<img src="/logo.svg" alt="" width="30" height="30" />
+			<img src="/logo-on-dark.svg" alt="" width="30" height="30" />
 			<span>Stellab OÜ</span>
 		</div>
 		<p class="footer__copy">
