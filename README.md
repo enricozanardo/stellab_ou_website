@@ -78,6 +78,10 @@ The zone already has Marcaria MX (`mfw.marcaria.com`) and an SPF TXT record.
 2. Do not remove MX records when updating A/CNAME for the website.
 3. If you later move to Google Workspace, Zoho, or similar, update MX and SPF accordingly.
 
+### Contact form
+
+The site form posts to [FormSubmit](https://formsubmit.co/) (`hello@stellab.ee`). The **first** submission triggers a confirmation email to that inbox — open it and activate the endpoint once. After that, messages are delivered normally.
+
 ## Brand notes
 
 Visual system: **Baltic Signal** (cool ice ground, Baltic navy, teal accent).  

@@ -69,10 +69,14 @@ export const et: Dictionary = {
 		emailLabel: 'E-post',
 		email: 'hello@stellab.ee',
 		formName: 'Nimi',
+		formEmail: 'Teie e-post',
 		formSubject: 'Teema',
 		formMessage: 'Sõnum',
-		formSubmit: 'Ava e-post',
-		formHint: 'Avab teie e-posti kliendi mustandiga Stellabi aadressile.'
+		formSubmit: 'Saada sõnum',
+		formSending: 'Saadan…',
+		formHint: 'Saadetakse turvaliselt aadressile hello@stellab.ee. Esimene sõnum võib vajada ühekordset kinnitust selles postkastis.',
+		formSuccess: 'Aitäh — teie sõnum on saadetud.',
+		formError: 'Sõnumit ei õnnestunud saata. Palun kirjutage otse aadressile hello@stellab.ee ja proovige hiljem uuesti.'
 	},
 	footer: {
 		rights: 'Kõik õigused kaitstud.',

@@ -55,10 +55,14 @@ export type Dictionary = {
 		emailLabel: string;
 		email: string;
 		formName: string;
+		formEmail: string;
 		formSubject: string;
 		formMessage: string;
 		formSubmit: string;
+		formSending: string;
 		formHint: string;
+		formSuccess: string;
+		formError: string;
 	};
 	footer: {
 		rights: string;
@@ -142,10 +146,14 @@ export const en: Dictionary = {
 		emailLabel: 'Email',
 		email: 'hello@stellab.ee',
 		formName: 'Name',
+		formEmail: 'Your email',
 		formSubject: 'Subject',
 		formMessage: 'Message',
-		formSubmit: 'Open email',
-		formHint: 'Opens your email client with a draft addressed to Stellab.'
+		formSubmit: 'Send message',
+		formSending: 'Sending…',
+		formHint: 'Sends securely to hello@stellab.ee. The first message may require a one-time confirmation in that inbox.',
+		formSuccess: 'Thank you — your message has been sent.',
+		formError: 'Could not send the message. Please email hello@stellab.ee directly and try again later.'
 	},
 	footer: {
 		rights: 'All rights reserved.',
