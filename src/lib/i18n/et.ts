@@ -78,6 +78,11 @@ export const et: Dictionary = {
 		rights: 'Kõik õigused kaitstud.',
 		tagline: 'Eestis registreeritud tehnoloogiaettevõte.',
 		registry: 'Registrikood 17615183',
-		vat: 'KMKR EE103040637'
+		vat: 'KMKR EE103040637',
+		bankTitle: 'Pangaandmed',
+		ibanLabel: 'IBAN',
+		iban: 'LU204080000049984547',
+		bicLabel: 'BIC',
+		bic: 'BCIRLULL'
 	}
 };

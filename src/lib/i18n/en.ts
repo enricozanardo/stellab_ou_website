@@ -65,6 +65,11 @@ export type Dictionary = {
 		tagline: string;
 		registry: string;
 		vat: string;
+		bankTitle: string;
+		ibanLabel: string;
+		iban: string;
+		bicLabel: string;
+		bic: string;
 	};
 };
 
@@ -146,6 +151,11 @@ export const en: Dictionary = {
 		rights: 'All rights reserved.',
 		tagline: 'Technology company registered in Estonia.',
 		registry: 'Registry code 17615183',
-		vat: 'VAT EE103040637'
+		vat: 'VAT EE103040637',
+		bankTitle: 'Bank details',
+		ibanLabel: 'IBAN',
+		iban: 'LU204080000049984547',
+		bicLabel: 'BIC',
+		bic: 'BCIRLULL'
 	}
 };
