@@ -80,7 +80,11 @@ The zone already has Marcaria MX (`mfw.marcaria.com`) and an SPF TXT record.
 
 ### Contact form
 
-The site form posts to [FormSubmit](https://formsubmit.co/) (`hello@stellab.ee`). The **first** submission triggers a confirmation email to that inbox — open it and activate the endpoint once. After that, messages are delivered normally.
+The site form posts text-only JSON to [FormSubmit](https://formsubmit.co/) (`hello@stellab.ee`). No file attachments are accepted.
+
+**Required once:** open `hello@stellab.ee`, find FormSubmit’s “Activate Form” email, and click the link. Until that is done, submissions show an activation notice instead of delivering.
+
+Anti-spam: honeypot field, minimum fill time, and a simple math challenge.
 
 ## Brand notes
 

@@ -72,11 +72,17 @@ export const et: Dictionary = {
 		formEmail: 'Teie e-post',
 		formSubject: 'Teema',
 		formMessage: 'Sõnum',
+		formCaptcha: 'Rämpsposti tõrje:',
 		formSubmit: 'Saada sõnum',
 		formSending: 'Saadan…',
-		formHint: 'Saadetakse turvaliselt aadressile hello@stellab.ee. Esimene sõnum võib vajada ühekordset kinnitust selles postkastis.',
+		formHint:
+			'Ainult tekstisõnumid aadressile hello@stellab.ee. Manuseid ei saa saata. Esimene kasutus nõuab ühekordset aktiveerimist selles postkastis.',
 		formSuccess: 'Aitäh — teie sõnum on saadetud.',
-		formError: 'Sõnumit ei õnnestunud saata. Palun kirjutage otse aadressile hello@stellab.ee ja proovige hiljem uuesti.'
+		formError: 'Sõnumit ei õnnestunud saata. Palun kirjutage otse aadressile hello@stellab.ee.',
+		formActivation:
+			'Aktiveerimine vajalik: avage hello@stellab.ee, leidke FormSubmiti kiri, klõpsake „Activate Form“ ja saatke uuesti.',
+		formSpam: 'Palun lahendage rämpsposti tõrje õigesti.',
+		formTooFast: 'Palun oodake mõni sekund enne saatmist.'
 	},
 	footer: {
 		rights: 'Kõik õigused kaitstud.',

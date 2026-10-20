@@ -58,11 +58,15 @@ export type Dictionary = {
 		formEmail: string;
 		formSubject: string;
 		formMessage: string;
+		formCaptcha: string;
 		formSubmit: string;
 		formSending: string;
 		formHint: string;
 		formSuccess: string;
 		formError: string;
+		formActivation: string;
+		formSpam: string;
+		formTooFast: string;
 	};
 	footer: {
 		rights: string;
@@ -149,11 +153,17 @@ export const en: Dictionary = {
 		formEmail: 'Your email',
 		formSubject: 'Subject',
 		formMessage: 'Message',
+		formCaptcha: 'Anti-spam check:',
 		formSubmit: 'Send message',
 		formSending: 'Sending…',
-		formHint: 'Sends securely to hello@stellab.ee. The first message may require a one-time confirmation in that inbox.',
+		formHint:
+			'Text-only messages to hello@stellab.ee. No file attachments. First use requires a one-time activation email in that inbox.',
 		formSuccess: 'Thank you — your message has been sent.',
-		formError: 'Could not send the message. Please email hello@stellab.ee directly and try again later.'
+		formError: 'Could not send the message. Please email hello@stellab.ee directly.',
+		formActivation:
+			'Activation required: open hello@stellab.ee, find the FormSubmit email, click “Activate Form”, then send again.',
+		formSpam: 'Please solve the anti-spam check correctly.',
+		formTooFast: 'Please wait a few seconds before sending.'
 	},
 	footer: {
 		rights: 'All rights reserved.',
