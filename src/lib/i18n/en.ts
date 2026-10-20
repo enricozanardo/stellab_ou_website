@@ -128,7 +128,7 @@ export const en: Dictionary = {
 		contactPersonLabel: 'Contact person',
 		contactPerson: 'Sunio OÜ (registry code 10116749)',
 		vatLabel: 'VAT number',
-		vat: '—'
+		vat: 'EE103040637'
 	},
 	contact: {
 		eyebrow: 'Contact',
@@ -146,6 +146,6 @@ export const en: Dictionary = {
 		rights: 'All rights reserved.',
 		tagline: 'Technology company registered in Estonia.',
 		registry: 'Registry code 17615183',
-		vat: 'VAT —'
+		vat: 'VAT EE103040637'
 	}
 };

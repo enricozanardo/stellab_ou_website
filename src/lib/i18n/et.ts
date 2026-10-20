@@ -60,7 +60,7 @@ export const et: Dictionary = {
 		contactPersonLabel: 'Kontaktisik',
 		contactPerson: 'Sunio OÜ (registrikood 10116749)',
 		vatLabel: 'KMKR number',
-		vat: '—'
+		vat: 'EE103040637'
 	},
 	contact: {
 		eyebrow: 'Kontakt',
@@ -78,6 +78,6 @@ export const et: Dictionary = {
 		rights: 'Kõik õigused kaitstud.',
 		tagline: 'Eestis registreeritud tehnoloogiaettevõte.',
 		registry: 'Registrikood 17615183',
-		vat: 'KMKR —'
+		vat: 'KMKR EE103040637'
 	}
 };
