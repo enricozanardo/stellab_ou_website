@@ -80,7 +80,7 @@
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: #7fd4cf;
+		color: var(--signal-light);
 		margin-bottom: 0.45rem !important;
 	}
 

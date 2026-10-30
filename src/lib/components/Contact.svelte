@@ -246,7 +246,7 @@
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: #7fd4cf;
+		color: var(--signal-light);
 	}
 
 	.contact__email a {
@@ -257,7 +257,7 @@
 	}
 
 	.contact__email a:hover {
-		color: #9fe3df;
+		color: var(--signal-light);
 	}
 
 	.contact__form {
@@ -303,7 +303,7 @@
 
 	input:focus,
 	textarea:focus {
-		outline: 2px solid var(--signal);
+		outline: 2px solid var(--signal-light);
 		outline-offset: 1px;
 	}
 

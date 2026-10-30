@@ -51,7 +51,7 @@
 	.services__index {
 		font-family: var(--font-display);
 		font-size: 1.25rem;
-		color: #7fd4cf;
+		color: var(--signal-light);
 		padding-top: 0.15rem;
 	}
 
