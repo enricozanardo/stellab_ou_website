@@ -8,7 +8,7 @@ Corporate landing site for **Stellab OÜ** (`stellab.ee`), built with SvelteKit 
 
 ## Local development
 
-Requires Node.js 20+.
+Requires Node.js 22.17+ (Node.js 24 is used in CI).
 
 ```bash
 npm install
@@ -88,7 +88,7 @@ Anti-spam: honeypot field, minimum fill time, and a simple math challenge.
 
 ## Brand notes
 
-Visual system: **Baltic Signal** (cool ice ground, Baltic navy, teal accent).  
+Visual system: **Baltic Signal** (warm ivory and sea-glass grounds, Baltic navy, high-contrast teal accent).
 Logo source: `raw_data/logo.png` (gitignored). Published: `static/logo.png`, `static/favicon*.png`, `static/apple-touch-icon.png`.
 
 ## Licence

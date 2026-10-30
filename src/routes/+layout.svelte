@@ -23,7 +23,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://stellab.ee/" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="theme-color" content="#0B1F2E" />
+	<meta name="theme-color" content="#142d38" />
 	<link rel="canonical" href="https://stellab.ee/" />
 	<link rel="alternate" hreflang="en" href="https://stellab.ee/" />
 	<link rel="alternate" hreflang="et" href="https://stellab.ee/" />

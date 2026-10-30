@@ -58,9 +58,10 @@
 		top: 0;
 		z-index: 20;
 		height: var(--nav-h);
-		background: color-mix(in srgb, var(--ice) 88%, transparent);
+		background: color-mix(in srgb, var(--paper) 90%, transparent);
 		backdrop-filter: blur(12px);
 		border-bottom: 1px solid color-mix(in srgb, var(--mist) 55%, transparent);
+		box-shadow: 0 4px 18px color-mix(in srgb, var(--ink) 4%, transparent);
 	}
 
 	.nav__inner {

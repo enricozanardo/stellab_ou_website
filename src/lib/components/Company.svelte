@@ -2,7 +2,7 @@
 	import { t } from '#lib/i18n/index.js';
 </script>
 
-<section class="section" id="company" aria-labelledby="company-title">
+<section class="section section--ice" id="company" aria-labelledby="company-title">
 	<div class="container">
 		<span class="eyebrow">{$t.company.eyebrow}</span>
 		<h2 id="company-title">{$t.company.title}</h2>

@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 :root {
-	--ink: #0b1f2e;
-	--sea: #0e3a4d;
-	--signal: #1fa7a0;
-	--signal-deep: #178a84;
-	--brand: #0b1f2e;
-	--ice: #e8eef2;
-	--mist: #c5d0d8;
-	--paper: #f7fafc;
+	--ink: #142d38;
+	--sea: #154653;
+	--signal: #55c5b7;
+	--signal-light: #9fe3da;
+	--signal-deep: #08766f;
+	--brand: #142d38;
+	--night: #091c24;
+	--ice: #eaf1ee;
+	--mist: #c7d6d1;
+	--paper: #faf9f4;
 	--white: #ffffff;
 
 	--font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
@@ -37,6 +39,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+section[id] {
+	scroll-margin-top: calc(var(--nav-h) + 1rem);
+}
+
 body {
 	margin: 0;
 	min-height: 100vh;
@@ -44,7 +50,7 @@ body {
 	font-size: 1.0625rem;
 	line-height: 1.6;
 	color: var(--ink);
-	background: var(--ice);
+	background: var(--paper);
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -61,6 +67,11 @@ a {
 
 a:hover {
 	color: var(--sea);
+}
+
+:focus-visible {
+	outline: 3px solid var(--signal-deep);
+	outline-offset: 3px;
 }
 
 h1,
@@ -95,8 +106,12 @@ p:last-child {
 	color: var(--ice);
 }
 
+.section--ice {
+	background: var(--ice);
+}
+
 .section--sea a {
-	color: #9fe3df;
+	color: var(--signal-light);
 }
 
 .section--sea a:hover {
@@ -114,7 +129,11 @@ p:last-child {
 }
 
 .section--sea .eyebrow {
-	color: #7fd4cf;
+	color: var(--signal-light);
+}
+
+.section--sea :focus-visible {
+	outline-color: var(--signal-light);
 }
 
 .lede {
@@ -152,12 +171,12 @@ p:last-child {
 }
 
 .btn--primary {
-	background: var(--signal);
+	background: var(--signal-deep);
 	color: var(--white);
 }
 
 .btn--primary:hover {
-	background: var(--signal-deep);
+	background: #075f5a;
 	color: var(--white);
 }
 

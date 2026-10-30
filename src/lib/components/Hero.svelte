@@ -37,7 +37,7 @@
 		z-index: 0;
 		background:
 			radial-gradient(ellipse 70% 55% at 78% 18%, color-mix(in srgb, var(--signal) 22%, transparent), transparent 70%),
-			linear-gradient(145deg, #0b1f2e 0%, #0e3a4d 52%, #134556 100%);
+			linear-gradient(145deg, var(--ink) 0%, var(--sea) 52%, #1a5861 100%);
 	}
 
 	.hero__visual::after {
@@ -45,7 +45,7 @@
 		position: absolute;
 		inset: 0;
 		background:
-			linear-gradient(180deg, transparent 35%, color-mix(in srgb, #06131d 72%, transparent) 100%),
+			linear-gradient(180deg, transparent 35%, color-mix(in srgb, var(--night) 72%, transparent) 100%),
 			repeating-linear-gradient(
 				-18deg,
 				transparent,
